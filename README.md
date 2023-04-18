@@ -5,3 +5,7 @@
     program to determine under which conditions parallelization is worth the
     extra effort involved.
 
+- Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
