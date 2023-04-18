@@ -10,27 +10,27 @@
 ### Description
 
 #### Two filters for smoothing RGB colour images:
-        - A mean filter that sets each pixel in the image to the average of the surrounding pixels.
-        - A median filter that sets each pixel to the median of the surrounding pixels.
+- A mean filter that sets each pixel in the image to the average of the surrounding pixels.
+- A median filter that sets each pixel to the median of the surrounding pixels.
 
-    Both methods use a sliding square window of a specified width **'w'** 
-    (where **'w'** is an odd number >=3) that defines the neighbouring 
-    pixels that are used to calculate the mean or the median. 
-    For RGB colour images, the filter calculation considers the 
-    three colour components of each pixel (red, green, and blue) 
-    separately – and each pixel is set to the mean/median of the red, 
-    green, and blue values of the surrounding pixels.
+Both methods use a sliding square window of a specified width **'w'** 
+(where **'w'** is an odd number >=3) that defines the neighbouring 
+pixels that are used to calculate the mean or the median. 
+For RGB colour images, the filter calculation considers the 
+three colour components of each pixel (red, green, and blue) 
+separately – and each pixel is set to the mean/median of the red, 
+green, and blue values of the surrounding pixels.
 
 ### Input and Output
-    The programs must take the following command-line parameters (in order):
-    "***'<inputImageName>' '<outputImageName>' '<windowWidth>'***
+The programs must take the following command-line parameters (in order):
+"***'<inputImageName>' '<outputImageName>' '<windowWidth>'***
 
-    where
-    * ***'<inputImageName>'*** is the name of the input image, including the file extension.
-    * ***'<outputImageName>'*** is the name of the input image, including the file extension.
-    * ***'<windowWidth>'*** is the width of the square filter window. This must be an odd, positive integer >=3.
+where
+* ***'<inputImageName>'*** is the name of the input image, including the file extension.
+* ***'<outputImageName>'*** is the name of the input image, including the file extension.
+* ***'<windowWidth>'*** is the width of the square filter window. This must be an odd, positive integer >=3.
 
-    Invalid input is handled gracefully, exiting without crashing. The java.awt.image.BufferedImage class makes it easy to deal with a range of image file types.
+Invalid input is handled gracefully, exiting without crashing. The java.awt.image.BufferedImage class makes it easy to deal with a range of image file types.
 
 ### Program Files
 
