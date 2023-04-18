@@ -23,6 +23,7 @@ green, and blue values of the surrounding pixels.
 
 ### Input and Output
 The programs must take the following command-line parameters (in order):
+
 **'\<inputImageName\>' '\<outputImageName\>' '\<windowWidth\>'**
 
 where
