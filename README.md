@@ -26,9 +26,9 @@ The programs must take the following command-line parameters (in order):
 **<inputImageName> <outputImageName> <windowWidth>**
 
 where
-* **<inputImageName>** is the name of the input image, including the file extension.
-* **<outputImageName>** is the name of the input image, including the file extension.
-* **<windowWidth>** is the width of the square filter window. This must be an odd, positive integer >=3.
+* **\<inputImageName\>** is the name of the input image, including the file extension.
+* **\<outputImageName\>** is the name of the input image, including the file extension.
+* **\<windowWidth\>** is the width of the square filter window. This must be an odd, positive integer >=3.
 
 Invalid input is handled gracefully, exiting without crashing. The java.awt.image.BufferedImage class makes it easy to deal with a range of image file types.
 
