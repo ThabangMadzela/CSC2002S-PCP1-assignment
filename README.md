@@ -10,7 +10,7 @@
 ### Description
 
 #### Two filters for smoothing RGB colour images:
-- A mean filter that sets each pixel in the image to the average of the surrounding pixels.
+> - A mean filter that sets each pixel in the image to the average of the surrounding pixels.
 - A median filter that sets each pixel to the median of the surrounding pixels.
 
 Both methods use a sliding square window of a specified width **'w'** 
