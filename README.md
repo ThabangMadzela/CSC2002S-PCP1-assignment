@@ -6,7 +6,7 @@
     extra effort involved.
 
 ## Project Details
-
+> `URL:` [https://github.com/ThabangMadzela/CSC2002S-PCP1-assignment]
 ### Description
 
 #### Two filters for smoothing RGB colour images:
